@@ -139,7 +139,7 @@ body{
     .container header nav.active{
         width: 100%;
         height: 100dvh;
-        clip-path: circle(209.0% at 100% 0);
+        clip-path: circle(141.3% at 100% 0);
     }
     .container header nav a{
         overflow: hidden;
