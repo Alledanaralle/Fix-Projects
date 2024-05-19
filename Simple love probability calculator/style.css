@@ -38,7 +38,7 @@ body {
 }
 
 .form .input {
-    width: 60%;
+    width: calc(60% + 4px);
     font-size: clamp(.9rem, 3vw, 1rem);
     padding: .5em .7em;
     margin: .75em auto;
