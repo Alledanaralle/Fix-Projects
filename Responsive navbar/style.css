@@ -107,7 +107,7 @@ body{
     margin: .25em 0;
 }
 #check:checked + .menu span{
-    margin: -.1em 0;
+    margin: -.095em 0;
 }
 
 #check:checked + .menu span:nth-child(2){
