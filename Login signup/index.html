@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <header>
+            <h3><span class="login active">LOGIN</span><span class="signup">SIGN UP</span></h3>
+            <label onclick="swap()" class="label">
+                <span><i class="ri-arrow-left-up-line"></i></span>
+            </label>
+        </header>
+        <div class="login-form">
+            <h2>Log in</h2>
+            <label for="email">
+                <i class="ri-mail-fill"></i>
+                <input type="email" name="email" id="email" placeholder="Your email">
+            </label>
+            <label for="password">
+                <i class="ri-lock-fill"></i>
+                <input type="password" name="password" id="password" placeholder="Your password">
+                <i class="ri-eye-off-line eye" onclick="showPass()"></i>
+            </label>
+            <button type="submit">Submit</button>
+            <a href="#">Forgot your Password ?</a>
+        </div>
+        <div class="login-form signup-form">
+            <h2>Sign Up</h2>
+            <label for="username">
+                <i class="ri-user-fill"></i>
+                <input type="text" name="username" id="username" placeholder="Your username">
+            </label>
+            <label for="email">
+                <i class="ri-mail-fill"></i>
+                <input type="email" name="email" id="email" placeholder="Your email">
+            </label>
+            <label for="password">
+                <i class="ri-lock-fill"></i>
+                <input type="password" name="password" id="password" placeholder="Your password">
+                <i class="ri-eye-off-line eye" onclick="showPass()"></i>
+            </label>
+            <button type="submit">Sign Up</button>
+        </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
